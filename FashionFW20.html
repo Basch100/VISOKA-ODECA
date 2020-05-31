@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<link rel=stylesheet href="fstyles.css">
+<head> <title> Visoka-Odeca.com </title> 
+<body class="bodyfw">
+	<h1 class="hding">  <a class="hding" href="file:///Users/baschi/Desktop/Fashion.html">Visoka Ode&#263a 
+    </a> </h1>
+    <img src="cl2.png" id="scart" class="button1"> 
+    <img src="applp.png" id="pay" class="button2">
+  <a href="file:///Users/baschi/Desktop/FashionSS20.html">
+    <img src="leaf.png" id="leaf" class="leaf">
+</a>
+<a href="file:///Users/baschi/Desktop/FashionFW20.html"> 
+    <img src="snowfl2.png" id="snowfl" class="snowfl"> 
+</a>
+
+ <div class="h1"> 
+  	<img class="dia" src="hoodie.png" > 
+  	<h4 class="ptxt"> </h4> 
+  	<button class="add" style="right:205px"> COMING SOON </button>
+  </div> 
+
+<div class="h1"> 
+  	<img class="dia" src="jeans.png" > 
+  	<h4 class="ptxt"> </h4> 
+  	
+  </div> 
+
+  <div class="h1"> 
+  	<img class="dia" src="tshirt3.png" > 
+  	<h4 class="ptxt"> </h4> 
+  	
+  </div> 
+
+  
+
+  
+
+  
+     
+
+   
+<button class="buttonlr" onclick="plusDivs(-1)">&#10094;</button>
+<button class="buttonlr" onclick="plusDivs(+1)">&#10095;</button>
+
+
+<script> 
+	var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("dia");
+  if (n > x.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  x[slideIndex-1].style.display = "block"; 
+}
+</script>
+
+
+
+
+
+
+
+
