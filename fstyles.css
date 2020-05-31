@@ -1,0 +1,66 @@
+body {
+	background-color:#D0C0DC;
+}
+
+.hding {
+	text-align: center; color: white; text-decoration: none; 
+	
+}
+
+.button1 {
+	height: 35px; width: 35px; position: absolute; right: 60px; top:20px; display: inline;
+	display: inline-block;
+}
+
+.button2 {
+	height: 26px; width: 40px; position: absolute; right: 10px; top:22px; display: inline;
+	display: inline-block; border: solid 2.5px black; border-radius: 6%
+}
+
+.leaf {
+	height: 26px; width: 32px; position: absolute; left: 20px; top:22px; display: inline;
+	display: inline-block; 
+}
+
+.snowfl {
+	height: 28px; width: 37px; position: absolute; left: 67px; top:21px; display: inline;
+	display: inline-block; filter:brightness(70%);
+}
+
+.dia {
+	align-content: center; margin-top: 25px;
+}
+
+.h1 { 
+	position: absolute; text-align: center; left:470px;  width:512px; height:512px;
+}
+
+.prdct {
+	font-family: helvetica neue; text-align: center; font-size: 20px; 
+}
+
+.buttonlr {
+    border:solid; left:687px; top:590px;  position: relative;
+}
+
+.ptxt {
+	font-family: helvetica neue; text-align: center; font-size:20px;
+}
+
+.add {
+	border:solid; position: absolute; right:235px; top:550px;
+}
+
+.bodyss {
+	background-color: #BDECB6;
+
+}
+
+.bodyfw {
+	background-color: #80CEE1;
+}
+
+#itemcounter  {
+	 position: absolute; right: 68px; top:31px; display: inline;
+	display: inline-block; font-family: helvetica neue; font-size: 10px; 
+}
